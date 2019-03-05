@@ -1,2 +1,2 @@
-nslookup slash16.org
-whois slash16.org
+#nslookup slash16.org
+#whois with ip from first command
