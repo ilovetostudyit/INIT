@@ -1,9 +1,0 @@
-ping -c 1 10.51.1.253 &>/dev/null
-# echo $?
-if [[ $? == 0 ]]; then
-    echo 'reachable'
-elif [[ $? == 2 ]]; then
-    echo 'not reachable'
-else
-    echo 'other error'
-fi
