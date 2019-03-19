@@ -1,0 +1,3 @@
+#host -t a slash16.org
+#whois with ip from first command
+# or just google it: https://hostingchecker.com/#slash16.org
