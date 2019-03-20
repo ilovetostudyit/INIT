@@ -1,0 +1,2 @@
+# uptime
+# cat /proc/uptime
