@@ -1,0 +1,6 @@
+#Query an external DNS server on the slash16.org domain name (ie. : google
+# 8.8.8.8)
+nslookup slash16.org 8.8.8.8
+# nslookup queries servers interactively.
+# slash16.org is the server being queried.
+# 8.8.8.8 is the server we query from.

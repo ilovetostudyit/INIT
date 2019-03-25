@@ -1,0 +1,5 @@
+#Get the list of the network interfaces of the machine without displaying any detail
+# for these interfaces. Only the list of names.
+ifconfig -l
+#ifconfig -a | sed 's/[[:space:]:].*//;/^$/d'
+#de-facto we clean space after "[space]:] construction and then clean empty strings

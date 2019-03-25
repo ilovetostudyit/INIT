@@ -1,0 +1,9 @@
+#Find the IP that was assigned to you by dhcp server
+ipconfig getoption en0 server_identifier
+# or 'ipcoming getoption en0 domain_name_server'
+# or 'ipconfig getpacket en0 | grep domain_name_server | cut -d ' ' -f 3'
+
+# DHCP-Dynamic Host Configuration Protocol automated method by which any
+# newly added or transferred node in network can be assigned or reassigned
+# IP address instantly. Without DHCP, network administrators would be forced
+# to assign IP address manually for every node in networ

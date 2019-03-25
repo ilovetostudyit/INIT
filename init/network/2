@@ -1,0 +1,6 @@
+# Identify and display the Ethernet interface characteristics:
+#(a) Identify broadcast address
+#(b) Identify all IP adresses which are part of the same subnet
+networksetup -getinfo Ethernet
+# networksetup, configuration tool for network settings in System Preferences.
+# -getinfo Ethernet, returns networkservice information regarding ethernet.

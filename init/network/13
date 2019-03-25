@@ -1,0 +1,8 @@
+# Thanks to the previous question, the reverse DNS find the name of your host
+# hostname
+# 21-school.ru
+# nslookup 192.168.50.11
+# or host this
+# nslookup 192.168.50.2
+# name = ns-1.21-school.ru.
+# name = net-serv.21-school.ru.

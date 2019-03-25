@@ -1,1 +1,0 @@
-traceroute slash16.org | sed '2,/end string pattern/d'

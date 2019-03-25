@@ -1,0 +1,6 @@
+# Identify the default gateway in the routing table
+netstat -nr | grep default | head -1 | awk '{print $2}'
+# netstat -nr shows the network addresses and their routing tables.
+# grep default grabs the default information
+# removes the first line grabbed by grep default
+# awk '{print $2}' parses and prints the second column of grep default | head -1.
