@@ -1,0 +1,10 @@
+# Write a script which delete an ACTIVE user on the VM
+user_id=$(getent passwd $1)
+
+if [ -z "$user_id" ]
+then
+	echo "User $1 does not exist"
+else
+	userdel -rf $1
+	echo "User $1 deleted succesfully"
+fi
